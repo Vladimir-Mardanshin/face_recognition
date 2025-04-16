@@ -4,8 +4,8 @@ from qdrant_client.models import VectorParams, Distance, PointStruct
 COLLECTION_NAME = "face_embeddings"
 
 qdrant_client = QdrantClient(
-    url="https://25e39288-f739-4a00-900b-e9fc20483a7e.eu-central-1-0.aws.cloud.qdrant.io:6333",
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.y6gFejDaz_7Vy2IItsLeV-QQJmJwa7qIC-eajFw5XPc"
+    url="",
+    api_key=""
 )
 
 _global_id_counter = 0
